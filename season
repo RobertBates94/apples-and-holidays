@@ -1,0 +1,16 @@
+
+[1mFrom:[0m /home/bbates/code/labs/apples-and-holidays/lib/holiday.rb:32 Object#add_supply_to_winter_holidays:
+
+    [1;34m25[0m: [32mdef[0m [1;34madd_supply_to_winter_holidays[0m(holiday_hash, supply)
+    [1;34m26[0m:   [1;34m# holiday_hash is identical to the one above[0m
+    [1;34m27[0m:   [1;34m# add the second argument, which is a supply, to BOTH the[0m
+    [1;34m28[0m:   [1;34m# Christmas AND the New Year's arrays[0m
+    [1;34m29[0m:   holiday_hash.each [32mdo[0m |season, data|
+    [1;34m30[0m:     data.each [32mdo[0m |holiday, supplies|
+    [1;34m31[0m:       supplies << [31m[1;31m"[0m[31mBallons[1;31m"[0m[31m[0m
+ => [1;34m32[0m:       binding.pry
+    [1;34m33[0m:     [32mend[0m
+    [1;34m34[0m:   [32mend[0m
+    [1;34m35[0m:   [32mreturn[0m holiday_hash
+    [1;34m36[0m: [32mend[0m
+
